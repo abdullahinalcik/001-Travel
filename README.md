@@ -1,1 +1,1 @@
-travel-abdullah.netlify.app
+https://travel-abdullah.netlify.app
