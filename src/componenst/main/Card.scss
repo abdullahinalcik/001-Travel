@@ -1,0 +1,77 @@
+div.card {
+  margin-top: 5rem;
+  margin-left: 8%;
+    width: 800px;
+    height: 350px;
+    margin-bottom: 2rem;
+  display: flex;
+  //   flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-evenly;
+  position: relative;
+  overflow: hidden;
+  &:hover .desc {
+    transform: translateX(0);
+    cursor: pointer;
+  }
+  &:hover img {
+    opacity: 1;
+    cursor: pointer;
+  }
+
+  //   gap: 2rem;
+  //   margin-bottom: 2rem;
+
+
+  img {
+    width: 800px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+    opacity: 0.7;
+    z-index: 4;
+    
+  }
+  button {
+    font-size: 1.1rem;
+    border-radius: 10px 20px 20px;
+    
+
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 1rem;
+    position: absolute;
+    left: 40%;
+    top: 0px;
+    
+    z-index: 4;
+    &:hover{
+       background-color: rgba(255, 228, 196, 0.208); 
+        color: black;
+        cursor: pointer;
+    }
+    // outline: rgb(66, 153, 225) solid 1px !important
+  }
+ .desc {
+    // color: rgb(255, 255, 255);
+    font-family: "Almendra Display", cursive;
+    // outline: rgb(66, 153, 225) solid 1px !important
+    // height: 100%;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    font-size: 1.5rem;
+    z-index: 4;
+    padding: 1rem;
+    transform: translateX(100%);
+    transition: transform 0.7s;
+    max-height: 70%;
+    overflow: scroll;
+    //*scroll barı yok etmek için kullanılan bi klas ama her browser da çalışmaya bilir.
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+}

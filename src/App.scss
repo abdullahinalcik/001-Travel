@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik Distressed', cursive;
+  
+
+}
+
+
+
+body{
+    height: 100vh;
+    background-image:url("./louis-magnotti-YvCg5X3pWzc-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    // background-color: rgb(205, 137, 12);
+}
+p{
+    color: white;
+    font-family: 'Belanosima', sans-serif;
+}
+
+button{
+    font-family: 'Belanosima', sans-serif;
+}

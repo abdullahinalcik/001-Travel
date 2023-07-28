@@ -1,0 +1,34 @@
+@import "../../scss/mixins";
+.Header{
+align-items: center;
+// background-color: rgb(205, 137, 12);
+display: flex;
+justify-content: space-between;
+padding: 0px 1rem;
+position: fixed;
+top: 0px;
+width: 100%;
+z-index: 4;
+// outline: rgb(66, 153, 225) solid 1px !important;
+    img{
+        padding: .5rem;
+        height: 100px;
+        width: 100px;
+        // background-color:rgb(205, 137, 12);
+        border-radius: 50%;
+        display: flex; 
+        z-index: 0;
+        &:hover{
+            transform: rotate(360deg) scale(1.2);
+            transition: all .7s;
+        }   
+        // outline: rgb(66, 153, 225) solid 1px !important
+    }
+ 
+
+}
+@include media-xsm{
+    .Header{
+        // flex-direction: column;
+    }
+}

@@ -1,0 +1,22 @@
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+  list-style: none;
+  padding: 1rem;
+  a {
+    font-size: 24px;
+    // font-family: 'Rubik Distressed', cursive;
+    border-radius: 5px;
+    color: rgb(23, 27, 32);
+    padding: 0.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    // outline: rgb(66, 153, 225) solid 1px !important;
+    text-decoration: none;
+    &:hover {
+      background-color: rgba(23, 27, 32, 0.427);
+      color: white
+    }
+  }
+}
